@@ -48,6 +48,12 @@ public class FirstScript : MonoBehaviour
         {
             Debug.Log("numA is equal to numB");
         }
+
+        Debug.Log(transform.position);
+
+        Vector3 testVector = new Vector3(10, 2, -5);
+
+        transform.position += testVector;
     }
 
     // Update is called once per frame
